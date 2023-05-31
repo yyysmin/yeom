@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li,ol{
+    list-style: none;
+}
+
+body{
+    background-color: #fff;
+    color: #333;
+    font-family: "맑은 고딕";
+    font-size: 16px;
+}
+
+#wrap{
+    width: 100%;
+    height: 750px;
+    /* background-color: #e1f0ab; */
+}
+
+.left{
+    width: 200px;
+    height: 650px;
+    float: left;
+    background-color: #d4ffd0;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 90%;
+}
+
+.nav{}
+
+.main{}
+.main > li{}
+.main > li > a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    text-indent: 20px;
+    margin-bottom: 5px;
+}
+.main > li:hover > a{
+    background-color: #67af6b;
+    color: rgb(2, 53, 33);
+}
+
+.sub{
+    display: none;
+}
+.sub li{}
+.sub li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 30px;
+    background-color: #f4fdd4;
+}
+.sub li a:hover{
+    background-color: #d5f155;
+}
+
+.right{
+    width: calc(100% - 200px);
+    height: 650px;
+    float: right;
+    background-color: #b4f58e;
+}
+
+.img_slide{
+    float: left;
+    width: calc(100% - 230px);
+    background-color: #307510;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left_move{
+    width: 300%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left_move li{
+    width: calc(100% / 3);
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+.left_move li img{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    width: 230px;
+    height: 400px;
+    float: right;
+    background-color: #55b84c;
+    padding: 10px;
+    text-align: center;
+}
+.banner a{}
+.banner a img{}
+.banner a h3{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.banner a p{
+    padding: 0 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.banner a .next{
+    float: right;
+    padding-top: 5px;
+}
+
+
+.not_gal{
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background-color: #8ceb3f;
+}
+
+.not_gal > div{
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 10px;
+}
+
+.not_gal h2{
+    font-size: 15px;
+    font-weight: 500;
+    height: 25px;
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #2d583b;
+    color: white;
+}
+
+.not_gal ul{
+    width: 100%;
+    height: 205px;
+    background-color: #2d583b;
+    color: white;
+    padding: 10px;
+}
+
+
+.notice{}
+.notice ul{}
+.notice ul li{
+    height: 45px;
+    line-height: 45px;
+}
+.notice ul li a{
+    display: block;
+    width: 75%;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.notice ul li span{
+    float: right;
+}
+
+.gallery{}
+.gallery ul{}
+.gallery ul li:nth-child(2){
+    margin: 0 5%;
+}
+.gallery ul li{
+    width: 30%;
+    height: 170px;
+    float: left;
+    text-align: center;
+}
+.gallery ul li a{
+    display: block;
+    height: 140px;
+    overflow: hidden;
+}
+.gallery ul li span{
+    display: block;
+}
+.gallery ul li img{
+    width: 100%;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #022c0b;
+}
+
+.f_logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.f_logo img{
+    width: 90%;
+}
+
+.copy{
+    float: left;
+    width: calc(100% - 400px);
+    height: 100px;
+    background-color: #2d6e4b;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
+
+.family{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: #04632b;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.family select{
+    width: 180px;
+    height: 50px;
+}
